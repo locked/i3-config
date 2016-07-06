@@ -156,7 +156,7 @@ for_window [title="CSSH"] floating enable
 # finds out, if available)
 bar {
         status_command i3status --config ~/.config/i3/.i3status.conf
-        tray_output primary
+        #tray_output primary
 }
 
 exec --no-startup-id nm-applet
